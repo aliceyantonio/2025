@@ -111,6 +111,11 @@
             font-weight: 900;
         }
 
+        .important{
+            font-weight: bold;
+            color: #FFD700;
+        }
+
 
         @media (max-width: 768px) {
             header {
@@ -120,11 +125,11 @@
             }
 
             header h1 {
-                font-size: 2.5rem;
+                font-size: 3rem;
             }
 
             header p {
-                font-size: 1rem;
+                font-size: 1em;
             }
 
             .content {
@@ -151,9 +156,10 @@
             <div class="row">
                 <div class="col-12 col-lg-10 mx-auto">
                     <h1>¡Viva Las Vegas!</h1>
-                    <p>¡Oh yeah, baby! !Todos sabíamos que esto ocurriria de nuevo!</p>
-                    <p>Prepárate para una ceremonia única al más puro estilo Las Vegas, oficiada por el mismísimo Rey del Rock y
-                        la inolvidable Marilyn Monroe.</p>
+                    <p>¡Oh yeah, baby!</p>
+                    <p>!Todos sabíamos que esto ocurriria de nuevo!</p>
+                    <p>Prepárate para una ceremonia única al más puro estilo Las Vegas oficiada por el mismísimo Rey del Rock y
+                        la inolvidable Marilyn Monroe</p>
                 </div>
             </div>
         </div>
@@ -162,13 +168,22 @@
         <div class="row justify-content-center mb-4">
             <div class="col-12 col-lg-8">
                 <div class="row justify-content-between">
-                    <div class="col-5">
+                    <div class="col-5 mb-3 pe-1">
                         <h2 class="mb-3">¿Cuándo?</h2>
                         <p>15 de Febrero</p>
                     </div>
-                    <div class="col-5 col-lg-3">
+                    <div class="col-6 col-lg-3 mb-3 ps-1">
                         <h2 class="mb-3">¿Dónde?</h2>
                         <a class="text-white" href="https://maps.app.goo.gl/nEbQ7sj6t1jHM7xn9">Hotel Hard Rock</a>
+                    </div>
+                    <div class="col-5 pe-1">
+                        <h2 class="mb-3">¿Hora?</h2>
+                        <p>21:00</p>
+                    </div>
+                    <div class="col-6 col-lg-3 ps-1">
+                        <h2 class="mb-3">¿Precio?</h2>
+                        <span>Es comida a la <a class="text-white" href="https://dynameatpro.blob.core.windows.net/hardrock/b8d874e9-5bb4-49cf-a51f-b3e072d210ba/5b4e122d-78fd-4a1b-8a59-cb31e1bdf0ba/index.html#/?zone=431f8c1a-1145-4820-bc0d-15eb251772b4">carta</a>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -176,9 +191,9 @@
         <div class="row">
             <div class="col-12 col-lg-8 mx-auto">
                 <h2 class="text-center mb-3">¿Temática?</h2>
-                <p>América de los años 80 con todo el glamour de Las Vegas. <br>
-                    ¡Saca tu mejor traje de ochentero!</p>
-                <p>Somos Alice & Antonio y quizá nos recuerden de anteriores bodas, ¡porque cada vez lo hacemos mejor!
+                <p>América de los años 80 con todo el glamour de Las Vegas. </p>
+                <p>¡Saca tu mejor traje ochentero!</p>
+                <p class="mb-1">Somos <span class="important">Alice & Antonio</span> y quizá nos recuerden de anteriores bodas como:
                 </p>
                 <ul>
                     <li>Boda Patólica</li>
@@ -187,13 +202,15 @@
                     <li>Boda Católica</li>
                     <li>Boda Balinesa</li>
                 </ul>
+                <p>¡Porque cada vez lo hacemos mejor!</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 text-center">
+        <div class="row mt-3">
+            <div class="col-12 col-lg-8 mx-auto text-center">
                 <div class="cta">
                     <a href="https://wa.me/602503147" target="_blank" class="btn btn-warning">¡Reserva tu lugar ahora, baby!</a>
                 </div>
+                <p class="mt-4 text-start">Es una "boda" totalmente opcional, no queremos que te sientas <u>en absoluto</u> obligado a ir.<br>Solo pedimos que nos confirmes si vienes antes del 30</p>
             </div>
         </div>
     </div>
